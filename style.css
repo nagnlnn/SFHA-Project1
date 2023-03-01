@@ -1,0 +1,146 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Interactive */ 
+
+@media only screen and (min-width: 1200px) {
+    .photo {
+        width: 70%;
+    }
+
+    .content {
+        width: 70%;
+        justify-content: center;
+        position: absolute;
+        left: 12%;
+    }
+}   
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 75%;
+    }
+
+    .photo {
+        width: 100%;
+    }
+
+    h2 {
+        justify-content: center;
+        display: flex;
+    }
+
+    .line {
+        justify-content: center;
+    }
+}
+
+/* Navigation on top */
+
+.mainheader {
+    display: flex;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    background-color: rgb(41, 41, 238);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.toggle-button {
+    list-style-type: none;
+    position: right;
+    margin-left: 20px;
+    height: 35px;
+    width: 35px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    top: 15px;
+    font-size: 18px;
+    flex-grow: 1
+}
+
+#logo {
+    position: left;
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+/* Navigation Menu and Listing */
+
+.nav-menu {
+    display: none;
+    background-color: rgb(41, 41, 238);
+    position: absolute;
+    width: 50%;
+    padding: 50px;
+    transform: translate(-500px);
+    transition: 0.5s;
+}
+    
+.nav-menu-listing {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 200%;
+    padding: 14px 16px;
+    display: block;
+}
+
+/* Photo with text */
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 300%;
+  }
+
+/* Page content */
+
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: white;
+}
+
+.content {
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.line {
+    width: 250px;
+    height: 0.1px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.42);
+    bottom: 10%;
+}
+
+h3 {
+    color: green;
+    text-decoration: underline;
+}
+
+#Summary {
+    padding-bottom: 0;
+    font-size: 125%;
+}
